@@ -5,6 +5,8 @@ begin-app
 
 @http
 get /api
+get /posts
+get /posts/:slug
 
 @tables
 data
